@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivasyon Uygulaması</title>
+    <link rel="stylesheet" href="MOODY.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Motivasyon Uygulaması</h1>
+        <form id="moodForm">
+            <label for="mood">Ruh Halinizi Seçin:</label>
+            <select id="mood" name="mood">
+                <option value="happy">😊 Mutlu</option>
+                <option value="sad">😢 Üzgün</option>
+                <option value="anxious">😟 Endişeli</option>
+                <option value="neutral">😐 Nötr</option>
+                <option value="athlete">💀💪 </option>  
+            </select>
+                <button type="submit">Mesajı Al</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="MOODY.js"></script>
+</body>
+</html>
